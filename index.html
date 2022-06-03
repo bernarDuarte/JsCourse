@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<title> titulo</title>
+</head>
+<h1>Hello node</h1>
+<body>
+    <script>
+        //s t r e s s;
+    function firstNonRepeatingLetter() {
+        let s = "stress";
+        let arr = s.split();
+        
+
+        for(let i = 0; i<arr.length;i++){
+        let count = 0;
+            for(let f = 0; f<arr.length;f++){
+            if(arr[i]==arr[f]){
+                    count++;
+                }
+            }
+        if(count<2){
+            alert(arr[i]);
+            return arr[i];
+        }
+        }
+    }
+
+    </script>
+</body>
